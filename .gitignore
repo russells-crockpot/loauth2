@@ -1,0 +1,7 @@
+
+# Ignore client secret files used for testing
+
+client_secret*
+
+# Ignore anything in the testing directory
+testing/**
