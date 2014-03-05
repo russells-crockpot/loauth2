@@ -57,7 +57,8 @@ Credentials.__index = Credentials
 
 loauth2 = {
     Provider = Provider,
-    Credentials = Credentials 
+    Credentials = Credentials,
+    client = require('client'),
 }
 
 return loauth2
