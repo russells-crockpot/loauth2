@@ -5,3 +5,6 @@ client_secret*
 
 # Ignore anything in the testing directory
 testing/**
+
+reference
+reference/**

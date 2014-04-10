@@ -1,0 +1,1303 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<head>
+    <title>loauth2 reference</title>
+    <link rel="stylesheet" href="../ldoc.css" type="text/css" />
+</head>
+<body>
+
+<div id="container">
+
+<div id="product">
+	<div id="product_logo"></div>
+	<div id="product_name"><big><b></b></big></div>
+	<div id="product_description"></div>
+</div> <!-- id="product" -->
+
+
+<div id="main">
+
+
+<!-- Menu -->
+
+<div id="navigation">
+<br/>
+<h1>loauth2</h1>
+
+<ul>
+  <li><a href="../index.html">Index</a></li>
+</ul>
+
+<h2>Contents</h2>
+<ul>
+<li><a href="#Tables">Tables</a></li>
+<li><a href="#Fields">Fields</a></li>
+</ul>
+
+
+<h2>Modules</h2>
+<ul class="$(kind=='Topics' and '' or 'nowrap'">
+  <li><a href="../modules/loauth2.html">loauth2</a></li>
+  <li><a href="../modules/loauth2.client.html">loauth2.client</a></li>
+  <li><strong>loauth2.client.extras.providers</strong></li>
+  <li><a href="../modules/loauth2.client.requests.html">loauth2.client.requests</a></li>
+</ul>
+<h2>Topics</h2>
+<ul class="$(kind=='Topics' and '' or 'nowrap'">
+  <li><a href="../topics/README.md.html">README</a></li>
+</ul>
+
+</div>
+
+<div id="content">
+
+<h1>Module <code>loauth2.client.extras.providers</code></h1>
+<p>A bunch of providers preset with relevant data.</p>
+<p> For more information about any provider, please see
+ Their documentation</p>
+    <h3>Info:</h3>
+    <ul>
+        <li><strong>Author</strong>: Brendan McGloin</li>
+    </ul>
+
+
+<h2><a href="#Tables">Tables</a></h2>
+<table class="function_list">
+	<tr>
+	<td class="name" nowrap><a href="#coinbase.available_scopes">coinbase.available_scopes</a></td>
+	<td class="summary">Values and descriptions from:
+ <a href="https://coinbase.com/docs/api/permissions">https://coinbase.com/docs/api/permissions</a></td>
+	</tr>
+</table>
+<h2><a href="#Fields">Fields</a></h2>
+<table class="function_list">
+	<tr>
+	<td class="name" nowrap><a href="#amazon">amazon</a></td>
+	<td class="summary">Amazon's info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#aol">aol</a></td>
+	<td class="summary">AOL's info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#arcgis">arcgis</a></td>
+	<td class="summary">'s info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#basecamp">basecamp</a></td>
+	<td class="summary">'s info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#bitly">bitly</a></td>
+	<td class="summary">'s info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#bluekiwi_software">bluekiwi_software</a></td>
+	<td class="summary">'s info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#box">box</a></td>
+	<td class="summary">'s info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#coinbase">coinbase</a></td>
+	<td class="summary">'s info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#deezer">deezer</a></td>
+	<td class="summary">'s info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#devianArt">devianArt</a></td>
+	<td class="summary">'s info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#disqus">disqus</a></td>
+	<td class="summary">'s info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#drillster">drillster</a></td>
+	<td class="summary">'s info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#dropbox">dropbox</a></td>
+	<td class="summary">Dropbox's info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#eventbrite">eventbrite</a></td>
+	<td class="summary">'s info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#flattr">flattr</a></td>
+	<td class="summary">'s info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#force">force</a></td>
+	<td class="summary">'s info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#formstack">formstack</a></td>
+	<td class="summary">'s info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#foursquare">foursquare</a></td>
+	<td class="summary">foursquare's info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#gigya">gigya</a></td>
+	<td class="summary">Gigya's info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#github">github</a></td>
+	<td class="summary">GitHub's info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#google">google</a></td>
+	<td class="summary">Google's info including it's <em>many</em> scopes.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#hnyb">hnyb</a></td>
+	<td class="summary">'s info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#hootsuite">hootsuite</a></td>
+	<td class="summary">'s info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#huddle">huddle</a></td>
+	<td class="summary">'s info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#imgur">imgur</a></td>
+	<td class="summary">'s info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#instagram">instagram</a></td>
+	<td class="summary">'s info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#jive">jive</a></td>
+	<td class="summary">'s info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#linkedIn">linkedIn</a></td>
+	<td class="summary">'s info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#mail_ru">mail_ru</a></td>
+	<td class="summary">'s info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#mailchimp">mailchimp</a></td>
+	<td class="summary">'s info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#mapmyfitness">mapmyfitness</a></td>
+	<td class="summary">'s info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#meetup">meetup</a></td>
+	<td class="summary">Meetup's info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#microsoft_live_connect">microsoft_live_connect</a></td>
+	<td class="summary">'s info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#mixcloud">mixcloud</a></td>
+	<td class="summary">'s info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#musicbrainz">musicbrainz</a></td>
+	<td class="summary">'s info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#noosh">noosh</a></td>
+	<td class="summary">'s info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#paypal">paypal</a></td>
+	<td class="summary">'s info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#poken">poken</a></td>
+	<td class="summary">'s info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#reddit">reddit</a></td>
+	<td class="summary">'s info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#salesforce">salesforce</a></td>
+	<td class="summary">'s info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#sare">sare</a></td>
+	<td class="summary">'s info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#sensioLabsConnect">sensioLabsConnect</a></td>
+	<td class="summary">'s info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#sina_weibo">sina_weibo</a></td>
+	<td class="summary">'s info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#soundcloud">soundcloud</a></td>
+	<td class="summary">'s info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#stocktwits">stocktwits</a></td>
+	<td class="summary">'s info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#strava">strava</a></td>
+	<td class="summary">'s info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#stripe">stripe</a></td>
+	<td class="summary">'s info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#tent">tent</a></td>
+	<td class="summary">'s info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#twitter">twitter</a></td>
+	<td class="summary">'s info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#unbounce">unbounce</a></td>
+	<td class="summary">'s info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#veevop">veevop</a></td>
+	<td class="summary">'s info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#viadeo">viadeo</a></td>
+	<td class="summary">'s info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#vk">vk</a></td>
+	<td class="summary">'s info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#wepay_production">wepay_production</a></td>
+	<td class="summary">'s info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#wepay_stage">wepay_stage</a></td>
+	<td class="summary">'s info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#wordpress">wordpress</a></td>
+	<td class="summary">'s info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#xively">xively</a></td>
+	<td class="summary">'s info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#yammer">yammer</a></td>
+	<td class="summary">'s info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#yandex">yandex</a></td>
+	<td class="summary">'s info.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#zendesk">zendesk</a></td>
+	<td class="summary">'s info.</td>
+	</tr>
+</table>
+
+<br/>
+<br/>
+
+
+    <h2><a name="Tables"></a>Tables</h2>
+    <dl class="function">
+    <dt>
+    <a name = "coinbase.available_scopes"></a>
+    <strong>coinbase.available_scopes</strong>
+    </dt>
+    <dd>
+    Values and descriptions from:
+ <a href="https://coinbase.com/docs/api/permissions">https://coinbase.com/docs/api/permissions</a>
+
+
+    <h3>Fields:</h3>
+    <ul>
+        <li><span class="parameter">all</span>
+            <span class="types"><span class="type">translation missing</span></span>
+        Debit an unlimited amount of money from your account, request, buy, and sell bitcoin, view your transaction history, and edit your account settings
+        </li>
+        <li><span class="parameter">merchant</span>
+        Create payment buttons and forms, view your basic user information, edit your merchant settings, and generate new receive addresses
+        </li>
+        <li><span class="parameter">balance</span>
+        View your balance
+        </li>
+        <li><span class="parameter">addresses</span>
+        View receive addresses and create new ones
+        </li>
+        <li><span class="parameter">buttons</span>
+        Create payment buttons
+        </li>
+        <li><span class="parameter">buy</span>
+        Buy bitcoin
+        </li>
+        <li><span class="parameter">contacts</span>
+        List emails and bitcoin addresses in your contact list
+        </li>
+        <li><span class="parameter">orders</span>
+        List merchant orders received
+        </li>
+        <li><span class="parameter">sell</span>
+        Sell bitcoin
+        </li>
+        <li><span class="parameter">transactions</span>
+        View your transaction history
+        </li>
+        <li><span class="parameter">send</span>
+        Debit an unlimited amount of money from your account
+        </li>
+        <li><span class="parameter">request</span>
+        Request money from your account
+        </li>
+        <li><span class="parameter">transfers</span>
+        List bitcoin buy and sell history
+        </li>
+        <li><span class="parameter">user</span>
+        View your basic account information
+        </li>
+        <li><span class="parameter">recurring_payments</span>
+        List your recurring payments
+        </li>
+        <li><span class="parameter">oauth_apps</span>
+         en.doorkeeper.available<em>scopes.oauth</em>apps
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+</dl>
+    <h2><a name="Fields"></a>Fields</h2>
+    <dl class="function">
+    <dt>
+    <a name = "amazon"></a>
+    <strong>amazon</strong>
+    </dt>
+    <dd>
+    Amazon's info.
+(Incomplete: no URIs)
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "aol"></a>
+    <strong>aol</strong>
+    </dt>
+    <dd>
+    AOL's info.
+(Incomplete: no scopes)
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "arcgis"></a>
+    <strong>arcgis</strong>
+    </dt>
+    <dd>
+    's info.
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "basecamp"></a>
+    <strong>basecamp</strong>
+    </dt>
+    <dd>
+    's info.
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "bitly"></a>
+    <strong>bitly</strong>
+    </dt>
+    <dd>
+    's info.
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "bluekiwi_software"></a>
+    <strong>bluekiwi_software</strong>
+    </dt>
+    <dd>
+    's info.
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "box"></a>
+    <strong>box</strong>
+    </dt>
+    <dd>
+    's info.
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "coinbase"></a>
+    <strong>coinbase</strong>
+    </dt>
+    <dd>
+    's info. </p>
+
+<p>Info obtained from
+ <a href="https://coinbase.com/docs/api/authentication">https://coinbase.com/docs/api/authentication</a>
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "deezer"></a>
+    <strong>deezer</strong>
+    </dt>
+    <dd>
+    's info.
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "devianArt"></a>
+    <strong>devianArt</strong>
+    </dt>
+    <dd>
+    's info.
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "disqus"></a>
+    <strong>disqus</strong>
+    </dt>
+    <dd>
+    's info. </p>
+
+<p>Info obtained from
+ <a href="http://disqus.com/api/docs/auth/">http://disqus.com/api/docs/auth/</a>
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "drillster"></a>
+    <strong>drillster</strong>
+    </dt>
+    <dd>
+    's info. </p>
+
+<p>Info obtained from
+ <a href="http://www.drillster.com/info/oauth">http://www.drillster.com/info/oauth</a>
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "dropbox"></a>
+    <strong>dropbox</strong>
+    </dt>
+    <dd>
+    Dropbox's info.
+(Possibly incomplete: no scopes)
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "eventbrite"></a>
+    <strong>eventbrite</strong>
+    </dt>
+    <dd>
+    's info. </p>
+
+<p>Info obtained from
+ <a href="http://developer.eventbrite.com/doc/authentication/oauth2/">http://developer.eventbrite.com/doc/authentication/oauth2/</a>
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "flattr"></a>
+    <strong>flattr</strong>
+    </dt>
+    <dd>
+    's info. </p>
+
+<p>Info obtained from
+ <a href="http://developers.flattr.net/api/">http://developers.flattr.net/api/</a>
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "force"></a>
+    <strong>force</strong>
+    </dt>
+    <dd>
+    's info.
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "formstack"></a>
+    <strong>formstack</strong>
+    </dt>
+    <dd>
+    's info.
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "foursquare"></a>
+    <strong>foursquare</strong>
+    </dt>
+    <dd>
+    foursquare's info.
+(Possibly incomplete: no scopes)
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "gigya"></a>
+    <strong>gigya</strong>
+    </dt>
+    <dd>
+    Gigya's info. </p>
+
+<p> Info obtained from:
+<a href="http://developers.gigya.com/010_Developer_Guide/85_REST/OAuth2">http://developers.gigya.com/010<em>Developer</em>Guide/85_REST/OAuth2</a>
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "github"></a>
+    <strong>github</strong>
+    </dt>
+    <dd>
+    GitHub's info.
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "google"></a>
+    <strong>google</strong>
+    </dt>
+    <dd>
+    Google's info including it's <em>many</em> scopes.
+Scopes were retrieved via <a href="http://discovery-check.appspot.com/">http://discovery-check.appspot.com/</a>
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "hnyb"></a>
+    <strong>hnyb</strong>
+    </dt>
+    <dd>
+    's info.
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "hootsuite"></a>
+    <strong>hootsuite</strong>
+    </dt>
+    <dd>
+    's info. </p>
+
+<p>Info obtained from
+ <a href="https://hootsuite.com/developers/api/oauth2">https://hootsuite.com/developers/api/oauth2</a>
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "huddle"></a>
+    <strong>huddle</strong>
+    </dt>
+    <dd>
+    's info.
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "imgur"></a>
+    <strong>imgur</strong>
+    </dt>
+    <dd>
+    's info.
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "instagram"></a>
+    <strong>instagram</strong>
+    </dt>
+    <dd>
+    's info.
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "jive"></a>
+    <strong>jive</strong>
+    </dt>
+    <dd>
+    's info.
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "linkedIn"></a>
+    <strong>linkedIn</strong>
+    </dt>
+    <dd>
+    's info.
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "mail_ru"></a>
+    <strong>mail_ru</strong>
+    </dt>
+    <dd>
+    's info. </p>
+
+<p>Info obtained from
+ <a href="http://api.mail.ru/docs/guides/oauth/">http://api.mail.ru/docs/guides/oauth/</a>
+ <em>after</em> being put through Google translate.
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "mailchimp"></a>
+    <strong>mailchimp</strong>
+    </dt>
+    <dd>
+    's info. </p>
+
+<p>Info obtained from
+ <a href="http://apidocs.mailchimp.com/oauth2/">http://apidocs.mailchimp.com/oauth2/</a>
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "mapmyfitness"></a>
+    <strong>mapmyfitness</strong>
+    </dt>
+    <dd>
+    's info. </p>
+
+<p>Info obtained from
+ <a href="https://www.mapmyapi.com/docs/OAuth_2_Intro">https://www.mapmyapi.com/docs/OAuth<em>2</em>Intro</a>
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "meetup"></a>
+    <strong>meetup</strong>
+    </dt>
+    <dd>
+    Meetup's info.
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "microsoft_live_connect"></a>
+    <strong>microsoft_live_connect</strong>
+    </dt>
+    <dd>
+    's info.
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "mixcloud"></a>
+    <strong>mixcloud</strong>
+    </dt>
+    <dd>
+    's info. </p>
+
+<p>Info obtained from
+ <a href="http://www.mixcloud.com/developers/#authorization">http://www.mixcloud.com/developers/#authorization</a>
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "musicbrainz"></a>
+    <strong>musicbrainz</strong>
+    </dt>
+    <dd>
+    's info. </p>
+
+<p>Info obtained from
+ <a href="http://wiki.musicbrainz.org/Development/OAuth2">http://wiki.musicbrainz.org/Development/OAuth2</a>
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "noosh"></a>
+    <strong>noosh</strong>
+    </dt>
+    <dd>
+    's info.
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "paypal"></a>
+    <strong>paypal</strong>
+    </dt>
+    <dd>
+    's info.
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "poken"></a>
+    <strong>poken</strong>
+    </dt>
+    <dd>
+    's info. </p>
+
+<p>Info obtained from
+ <a href="http://apiwiki.poken.com/authentication/oauth2">http://apiwiki.poken.com/authentication/oauth2</a>
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "reddit"></a>
+    <strong>reddit</strong>
+    </dt>
+    <dd>
+    's info.
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "salesforce"></a>
+    <strong>salesforce</strong>
+    </dt>
+    <dd>
+    's info.
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "sare"></a>
+    <strong>sare</strong>
+    </dt>
+    <dd>
+    's info.
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "sensioLabsConnect"></a>
+    <strong>sensioLabsConnect</strong>
+    </dt>
+    <dd>
+    's info.
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "sina_weibo"></a>
+    <strong>sina_weibo</strong>
+    </dt>
+    <dd>
+    's info.
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "soundcloud"></a>
+    <strong>soundcloud</strong>
+    </dt>
+    <dd>
+    's info. </p>
+
+<p>Info extracted from Soundcloud's python sdk
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "stocktwits"></a>
+    <strong>stocktwits</strong>
+    </dt>
+    <dd>
+    's info. </p>
+
+<p>Info obtained from
+ <a href="http://stocktwits.com/developers/docs/authentication">http://stocktwits.com/developers/docs/authentication</a>
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "strava"></a>
+    <strong>strava</strong>
+    </dt>
+    <dd>
+    's info.
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "stripe"></a>
+    <strong>stripe</strong>
+    </dt>
+    <dd>
+    's info.
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "tent"></a>
+    <strong>tent</strong>
+    </dt>
+    <dd>
+    's info.
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "twitter"></a>
+    <strong>twitter</strong>
+    </dt>
+    <dd>
+    's info.
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "unbounce"></a>
+    <strong>unbounce</strong>
+    </dt>
+    <dd>
+    's info.
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "veevop"></a>
+    <strong>veevop</strong>
+    </dt>
+    <dd>
+    's info.
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "viadeo"></a>
+    <strong>viadeo</strong>
+    </dt>
+    <dd>
+    's info.
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "vk"></a>
+    <strong>vk</strong>
+    </dt>
+    <dd>
+    's info.
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "wepay_production"></a>
+    <strong>wepay_production</strong>
+    </dt>
+    <dd>
+    's info. </p>
+
+<p>Info obtained from
+ <a href="https://www.wepay.com/developer/reference/oauth2">https://www.wepay.com/developer/reference/oauth2</a>
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "wepay_stage"></a>
+    <strong>wepay_stage</strong>
+    </dt>
+    <dd>
+    's info. </p>
+
+<p>Info obtained from
+ <a href="https://www.wepay.com/developer/reference/oauth2">https://www.wepay.com/developer/reference/oauth2</a>
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "wordpress"></a>
+    <strong>wordpress</strong>
+    </dt>
+    <dd>
+    's info. </p>
+
+<p>Info obtained from
+ <a href="http://developer.wordpress.com/docs/oauth2/">http://developer.wordpress.com/docs/oauth2/</a>
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "xively"></a>
+    <strong>xively</strong>
+    </dt>
+    <dd>
+    's info.
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "yammer"></a>
+    <strong>yammer</strong>
+    </dt>
+    <dd>
+    's info.
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "yandex"></a>
+    <strong>yandex</strong>
+    </dt>
+    <dd>
+    's info.
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "zendesk"></a>
+    <strong>zendesk</strong>
+    </dt>
+    <dd>
+    's info.
+
+
+
+
+
+
+
+</dd>
+</dl>
+
+
+</div> <!-- id="content" -->
+</div> <!-- id="main" -->
+<div id="about">
+<i>generated by <a href="http://github.com/stevedonovan/LDoc">LDoc 1.4.2</a></i>
+</div> <!-- id="about" -->
+</div> <!-- id="container" -->
+</body>
+</html>
